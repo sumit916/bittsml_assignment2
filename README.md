@@ -23,12 +23,12 @@ The following 6 classification models were implemented on the dataset:
 ### Evaluation Metrics Comparison Table
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Logistic Regression** | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-| **Decision Tree** | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-| **KNN** | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-| **Naive Bayes** | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-| **Random Forest (Ensemble)** | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-| **XGBoost (Ensemble)** | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+| **Logistic Regression** | 0.974 | 0.997 | 0.972 | 0.986 | 0.979 | 0.944 |
+| **Decision Tree** | 0.939 | 0.932 | 0.944 | 0.958 | 0.951 | 0.869 |
+| **KNN** | 0.947 | 0.982 | 0.958 | 0.958 | 0.958 | 0.888 |
+| **Naive Bayes** | 0.965 | 0.997 | 0.959 | 0.986 | 0.972 | 0.925 |
+| **Random Forest (Ensemble)** | 0.965 | 0.995 | 0.959 | 0.986 | 0.972 | 0.925 |
+| **XGBoost (Ensemble)** | 0.956 | 0.991 | 0.958 | 0.972 | 0.965 | 0.906 |
 
 ### Observations on Model Performance
 | ML Model Name | Observation about model performance |
